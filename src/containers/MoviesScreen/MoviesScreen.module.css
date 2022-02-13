@@ -1,0 +1,67 @@
+.body {
+    width: 80%;
+    background-color: #093545;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    overflow: visible;
+}
+
+.movieListContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 1em;
+    margin-left: 10px ;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    margin-bottom: 50px
+}
+
+.headerH2 {
+    color: #fff;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.addNewMovieButtonContainer {
+    width: 25%;
+}

@@ -1,0 +1,30 @@
+.movieCard {
+    background-color: #092C39;
+    border-radius: 12px;
+    width: 282px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.movieCard:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.movieInfo {
+    background-color: #092C39;
+    color: #fff;
+}
+
+.movieTitle {
+    color: #fff;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,20 @@
+.container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.deleteButton {
+    width: 100px;
+    margin-left: auto;
+}
+
